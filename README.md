@@ -1,2 +1,2 @@
 # namnyang-pack
-Minecraft Namnyang Pack
+남냥팩 
