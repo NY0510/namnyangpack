@@ -5,6 +5,10 @@
         <script>
             var PackVer = "0.6.1";
             var PackPath = "pack/namnyang_pack_V." + PackVer + ".zip";
+
+            function downloadpack() {
+                window.open(PackPath);
+            }
         </script>
 
         <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
@@ -41,7 +45,7 @@
                     Made By Namnyang
                 </p>
                 <ul class="actions">
-                    <li><a href="&{PackPath};" class="button primary icon solid fa-download">Download</a></li>
+                    <li><a onclick="downloadpack()" class="button primary icon solid fa-download">Download</a></li>
                     <li><a href="#one" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
                 </ul>
             </div>
@@ -124,8 +128,8 @@
                 </p>
             </header>
             <ul class="actions special">
-                <li><a href="&{PackPath};" class="button primary icon solid fa-download">Download</a></li>
-                <li><a href="#one" class="button">Learn More</a></li>
+                <li><a onclick="downloadpack()" class="button primary icon solid fa-download">Download</a></li>
+                <li><a href="allver" class="button">All Version</a></li>
             </ul>
         </section>
 
